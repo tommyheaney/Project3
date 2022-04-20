@@ -32,6 +32,15 @@ function division() {
 }
 
 //Multiple Operations
+function simplemath() {
+    var simplemath = (1+3)*10/2-5;
+    document.getElementById("simplemath").innerHTML= "1+3, x10 ÷2 -5= " + simplemath;
+}
 
+//Multiple Operations
+function kermit() {
+    var kermit = 25 % 6;
+    document.getElementById("kermit").innerHTML= "When you divide 25 by 6 you have a remainder of: " + kermit;
+}
 
-    window.alert(Math.random());
+window.alert(Math.random());
